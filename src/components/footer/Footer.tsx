@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
       <hr />
       <div className="footer-buttom">
         <p className="footer-buttom-left">
-          &copy 2023 Kyaw Min Naing. All rights reserved.
+          &copy; 2023 Kyaw Min Naing. All rights reserved.
         </p>
         <div className="footer-bottom-right">
           <p>Terms of Services</p>
