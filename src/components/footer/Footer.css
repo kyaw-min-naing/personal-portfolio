@@ -1,0 +1,96 @@
+.footer {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30;
+  background-color: #3b3938;
+  color: rgb(193, 193, 193);
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top-left h2 {
+  background: linear-gradient(
+    264deg,
+    rgba(255, 170, 1, 0.938) -5.09%,
+    #cac4cf 110.28%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-top-left p {
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.footer-top-right {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.footer-email-input {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background: #807e7d;
+  padding-right: 60px;
+}
+
+.footer-email-input:hover {
+  background: linear-gradient(
+    264deg,
+    rgba(218, 146, 1, 0.938) -5.09%,
+    #333234 110.28%
+  );
+  border: 2px solid rgb(169, 158, 134);
+}
+
+.footer-email-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-family: Outfit;
+  font-size: 18px;
+}
+
+.footer-subscribe {
+  font-size: 20px;
+  padding: 18px 40px;
+  border-radius: 50px;
+  background: #807e7d;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-subscribe:hover {
+  background: linear-gradient(
+    264deg,
+    rgba(218, 146, 1, 0.938) -5.09%,
+    #333234 110.28%
+  );
+  border: 2px solid rgb(169, 158, 134);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.footer-buttom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: -60px;
+}
+
+.footer-bottom-right {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}

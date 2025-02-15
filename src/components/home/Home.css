@@ -1,0 +1,77 @@
+.home-container {
+  padding: 2rem;
+  margin: 0 auto;
+  /* background-color: #bab8b5; */
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #413f3f;
+}
+
+.heilight-name {
+  color: rgba(218, 146, 1, 0.938);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #413f3f;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.cta-button {
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  transition: transform 0.2s;
+
+  background: transparent;
+  border: 2px solid #606060;
+  color: #000000;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  background: rgba(179, 166, 138, 0.938);
+  color: white;
+}
+
+.img-section {
+  display: flex;
+}
+
+.img-section img {
+  width: 70%;
+  height: 70%;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+}
